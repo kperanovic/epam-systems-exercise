@@ -1,4 +1,4 @@
-# XM Golang Exercise
+# EPAM Systems Golang Exercise
 
 ## Instructions
 
@@ -14,7 +14,7 @@ Run `docker-compose -f build/docker-compose.yml` from the root directory to star
 
 ### Local
 
-If you want to run the codebase locally, from project root run `go run *.go`. All environment variables can still be passed like in docker-compose
+If you want to run the codebase locally, from project root run `go run *.go`. All environment variables can still be passed like in docker-compose.
 
 Example : `AUTH_SECRET="zuTNubVdTIv2fLoNDsgHuDjcMBiA9ofV" KAFKA_ADDR="localhost:9092" DB_USER="user" DB_PWD="pass" go run *.go`
 
